@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', monospace;
+  background: #e3f2fd; /* light blue */
+  color: #0d47a1;      /* navy text */
+  text-align: center;
+}
+
+header {
+  background: #0d47a1;  /* navy */
+  color: #fff;
+  padding: 25px 15px;
+  border-bottom: 6px solid #fdd835; /* yellow accent */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em; /* slightly smaller for balance */
+}
+
+.tagline {
+  margin-top: 10px;
+  font-size: 1.1em; /* smaller so it doesn’t overpower details */
+  font-weight: 500;
+}
+
+.content {
+  padding: 30px 15px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 25px;
+  max-width: 650px;
+  margin: auto;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  border: 2px solid #fdd835;
+}
+
+h2 {
+  color: #1565c0; /* brighter blue */
+  font-size: 1.5em; /* reduced for better proportion */
+}
+
+.details {
+  margin: 20px 0;
+  font-size: 1em; /* balanced size for readability */
+  line-height: 1.5em;
+}
+
+.label {
+  font-weight: bold;
+  color: #f57f17; /* golden orange */
+}
+
+footer {
+  margin-top: 40px;
+  padding: 15px;
+  background: #0d47a1;
+  color: #ffffff;
+  font-size: 0.85em; /* smaller footer text */
+}
+
+.code-snippet {
+  margin-top: 8px;
+  font-family: "Courier New", monospace;
+  color: #ffffff;
+  font-size: 0.9em;
+}
+
+/* 📱 Responsive for phones */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.6em;
+  }
+  .details {
+    font-size: 0.95em;
+  }
+  .tagline {
+    font-size: 1em;
+  }
+}
